@@ -1,0 +1,265 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Section styles */
+section#about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #a3c9e3;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #7eb6d9;
+}
+
+/* About section styles */
+#about {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+#about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Tracks section styles */
+#tracks {
+  background-color: #f0f6ff;
+  padding: 40px 0;
+}
+
+.track {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.track-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.track-description {
+  color: #666;
+}
+
+/* Speakers section styles */
+#speakers {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.speaker {
+  display: inline-block;
+  width: 200px;
+  margin: 0 20px;
+}
+
+.speaker img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.speaker h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.speaker p {
+  color: #666;
+}
+
+/* Schedule section styles */
+#schedule {
+  background-color: #f0f6ff;
+  padding: 40px 0;
+}
+
+#schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#schedule th,
+#schedule td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Registration section styles */
+#registration {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Contributors section styles */
+.contributors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.contributor {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.contributor:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  opacity: 0.3;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+.contributor-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contributor-name {
+  font-size: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contributor-role {
+  font-size: 10px;
+  color: #888;
+}
+
+
+
+
+/* Contact section styles */
+#contact {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #d9e8f9;
+  color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #a3c9e3;
+  color: #333333;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7eb6d9;
+}
+
+/* Header styles */
+header {
+  position: relative;
+  background-color: #d9e8f9;
+  color: #333;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#university-logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 50%;
+}
+
+
